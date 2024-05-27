@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<partial name="~/Views/Partials/_Header.cshtml" />
+<body>
+    <!-- Header Section Start -->
+    <partial name="~/Views/Partials/_Navbar.cshtml" />
+    <!-- Header Section End -->
+    <!-- Home Section Start -->
+    <partial name="~/Views/Partials/_Banner.cshtml" />
+    <!-- Home Section End -->
+    <!-- Menu Section Start -->
+    @RenderBody()
+    <!-- Products Section End -->
+    <!-- Review Section Start -->
+    <partial name="~/Views/Partials/_Review.cshtml" />
+    <!-- Review Section End -->
+    <!-- Footer Section Start -->
+    <partial name="~/Views/Partials/_Footer.cshtml" />
+    <!-- Footer Section End -->
+
+    <script type="text/javascript" src="~/website//app.js"></script>
+</body>
+</html>
